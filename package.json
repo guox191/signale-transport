@@ -1,0 +1,16 @@
+{
+  "name": "signale-transport",
+  "version": "1.0.0",
+  "description": "using signale as winston transport",
+  "main": "index.js",
+  "author": "Mr.Betty<guoxiang191@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guox191/signale-transport"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "signale": "^1.1.0",
+    "winston-transport": "^3.2.1"
+  }
+}
