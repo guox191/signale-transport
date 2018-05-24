@@ -1,6 +1,6 @@
 {
   "name": "signale-transport",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "using signale as winston transport",
   "main": "index.js",
   "author": "Mr.Betty<guoxiang191@gmail.com>",

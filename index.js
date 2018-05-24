@@ -23,6 +23,8 @@ function SignaleTransport(opts) {
 
 SignaleTransport.prototype = Object.create(Transport.prototype);
 
+SignaleTransport.prototype.constructor = SignaleTransport;
+
 SignaleTransport.prototype.log = function (info, callback) {
   signale[info.level](info.message);
   setImmediate(() => {
